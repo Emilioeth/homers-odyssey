@@ -1,0 +1,201 @@
+{
+  "days": 1,
+  "note": "every day settled so far, added up. A cut's hits are how many of the hitters it listed went on to homer; the expectation beside it is the sum of those hitters' own published probabilities, which is what the model said that list was worth before the games were played. Both are also given as a share of the list, because a hit rate on its own reads as a mark out of ten against nothing — ten hitters averaging 21% means the model expects 2.1 of them, so three is a good night and \"30%\" alone does not say so. The days are stated because nine hits against seven expected means one thing over three days and something else over thirty. No test of significance is computed here, and over this many days none would be worth the name.",
+  "cutoffs": [
+    {
+      "view": "every-covered-game",
+      "limit": 10,
+      "days": 1,
+      "listed": 10,
+      "hits": 0,
+      "expected": 2.428221979577564,
+      "hit_rate": 0.0,
+      "expected_rate": 0.24282219795775642
+    },
+    {
+      "view": "every-covered-game",
+      "limit": 15,
+      "days": 1,
+      "listed": 15,
+      "hits": 1,
+      "expected": 3.4831986790647793,
+      "hit_rate": 0.06666666666666667,
+      "expected_rate": 0.23221324527098527
+    },
+    {
+      "view": "every-covered-game",
+      "limit": 20,
+      "days": 1,
+      "listed": 20,
+      "hits": 1,
+      "expected": 4.501918891537832,
+      "hit_rate": 0.05,
+      "expected_rate": 0.22509594457689158
+    },
+    {
+      "view": "by-matchup",
+      "limit": 5,
+      "days": 1,
+      "listed": 5,
+      "hits": 0,
+      "expected": 1.2838929808593686,
+      "hit_rate": 0.0,
+      "expected_rate": 0.2567785961718737
+    },
+    {
+      "view": "by-matchup",
+      "limit": 10,
+      "days": 1,
+      "listed": 10,
+      "hits": 1,
+      "expected": 2.351933575021001,
+      "hit_rate": 0.1,
+      "expected_rate": 0.23519335750210008
+    },
+    {
+      "view": "by-matchup",
+      "limit": 15,
+      "days": 1,
+      "listed": 15,
+      "hits": 1,
+      "expected": 3.359172852032019,
+      "hit_rate": 0.06666666666666667,
+      "expected_rate": 0.2239448568021346
+    },
+    {
+      "view": "by-club",
+      "limit": 5,
+      "days": 1,
+      "listed": 5,
+      "hits": 0,
+      "expected": 1.232813708387486,
+      "hit_rate": 0.0,
+      "expected_rate": 0.2465627416774972
+    },
+    {
+      "view": "by-club",
+      "limit": 10,
+      "days": 1,
+      "listed": 10,
+      "hits": 1,
+      "expected": 2.2579252235552523,
+      "hit_rate": 0.1,
+      "expected_rate": 0.22579252235552522
+    },
+    {
+      "view": "by-club",
+      "limit": 15,
+      "days": 1,
+      "listed": 15,
+      "hits": 2,
+      "expected": 3.1515709280766986,
+      "hit_rate": 0.13333333333333333,
+      "expected_rate": 0.21010472853844658
+    }
+  ],
+  "by_day": [
+    {
+      "slate_date": "2026-08-02",
+      "cutoffs": [
+        {
+          "view": "every-covered-game",
+          "limit": 10,
+          "days": 1,
+          "listed": 10,
+          "hits": 0,
+          "expected": 2.428221979577564,
+          "hit_rate": 0.0,
+          "expected_rate": 0.24282219795775642
+        },
+        {
+          "view": "every-covered-game",
+          "limit": 15,
+          "days": 1,
+          "listed": 15,
+          "hits": 1,
+          "expected": 3.4831986790647793,
+          "hit_rate": 0.06666666666666667,
+          "expected_rate": 0.23221324527098527
+        },
+        {
+          "view": "every-covered-game",
+          "limit": 20,
+          "days": 1,
+          "listed": 20,
+          "hits": 1,
+          "expected": 4.501918891537832,
+          "hit_rate": 0.05,
+          "expected_rate": 0.22509594457689158
+        },
+        {
+          "view": "by-matchup",
+          "limit": 5,
+          "days": 1,
+          "listed": 5,
+          "hits": 0,
+          "expected": 1.2838929808593686,
+          "hit_rate": 0.0,
+          "expected_rate": 0.2567785961718737
+        },
+        {
+          "view": "by-matchup",
+          "limit": 10,
+          "days": 1,
+          "listed": 10,
+          "hits": 1,
+          "expected": 2.351933575021001,
+          "hit_rate": 0.1,
+          "expected_rate": 0.23519335750210008
+        },
+        {
+          "view": "by-matchup",
+          "limit": 15,
+          "days": 1,
+          "listed": 15,
+          "hits": 1,
+          "expected": 3.359172852032019,
+          "hit_rate": 0.06666666666666667,
+          "expected_rate": 0.2239448568021346
+        },
+        {
+          "view": "by-club",
+          "limit": 5,
+          "days": 1,
+          "listed": 5,
+          "hits": 0,
+          "expected": 1.232813708387486,
+          "hit_rate": 0.0,
+          "expected_rate": 0.2465627416774972
+        },
+        {
+          "view": "by-club",
+          "limit": 10,
+          "days": 1,
+          "listed": 10,
+          "hits": 1,
+          "expected": 2.2579252235552523,
+          "hit_rate": 0.1,
+          "expected_rate": 0.22579252235552522
+        },
+        {
+          "view": "by-club",
+          "limit": 15,
+          "days": 1,
+          "listed": 15,
+          "hits": 2,
+          "expected": 3.1515709280766986,
+          "hit_rate": 0.13333333333333333,
+          "expected_rate": 0.21010472853844658
+        }
+      ]
+    }
+  ],
+  "projection": {
+    "days": 1,
+    "games": 5,
+    "slots_compared": 90,
+    "slots_matched": 40,
+    "match_rate": 0.4444444444444444,
+    "note": "clubs file their batting orders two to three hours before first pitch, so a card written in the morning stands partly on projected lineups — the nine each club is likeliest to field, taken from its own recent orders. Once the games have been played the real orders are known, and this is how those projections turned out: how many projected slots held the man who actually batted there, out of how many could be compared. Same man, same place in the order, counted slot by slot. Nothing on this page is weighted by this figure, no threshold is applied to it, and a projected game is excluded from every figure above rather than graded."
+  }
+}
